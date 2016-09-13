@@ -135,6 +135,10 @@ a {
 	transition: color 0.2s ease;
 }
 
+a[href="javascript:;"] {
+	cursor: not-allowed;
+}
+
 
 
 
@@ -176,6 +180,14 @@ header {
 	header {
 		padding: 5rem;
 	}
+}
+
+header > h2 {
+	padding: 0.1em;
+	text-transform: lowercase;
+	color: rgb(60, 168, 196);
+	background-color: #fff;
+	border-radius: 2px;
 }
 
 footer {
@@ -375,6 +387,8 @@ img.thumbnail {
 
 img.thumbnail:hover {
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+	-webkit-filter: grayscale(30%);
+	filter: grayscale(30%);
 }
 
 
