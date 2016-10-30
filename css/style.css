@@ -446,6 +446,9 @@ img.thumbnail:hover {
 	font-size: 90%;
 	text-align:center;margin:30px 7% 60px;
 }
+header h2{
+	margin-bottom:20px;
+}
 
 @media screen and (min-width: 992px) {
 	#logo {
@@ -457,6 +460,9 @@ img.thumbnail:hover {
 	.subtitle{
 		font-size: 130%;
 		text-align:center;margin:30px 7% 60px;
+	}
+	header h2{
+		margin-bottom:0;
 	}
 }
 
