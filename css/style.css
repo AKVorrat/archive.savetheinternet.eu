@@ -468,8 +468,8 @@ header h2{
 
 @media screen and (orientation:landscape) {
 	.subtitle{
-		font-size: 130%;
-		text-align:center;margin:30px 7% 60px;
+		text-align:center;margin:25px 7% 15px;
+	}
 }
 
 @-webkit-keyframes start {
