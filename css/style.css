@@ -473,7 +473,7 @@ header h2{
 	#start {
     		bottom: 5px;
 	}
-	br:last-child{
+	.subtitle br:first-child{
 		display:none;
 	}
 }
