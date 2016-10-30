@@ -479,7 +479,7 @@ header h2{
 		display:inline;
 	}
 	.fa-3x {
-    		font-size: 1.5em;
+    		font-size: 1.5em !important;
 	}
 }
 
