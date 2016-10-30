@@ -458,7 +458,7 @@ header h2{
 
 footer p{
     	font-size: 130%;
-    	margin: 15px 7% 20px 7%;
+    	margin: 15px 7% 20px 7% !important;
 	text-align:center;
 }
 
