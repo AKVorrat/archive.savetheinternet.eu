@@ -470,6 +470,12 @@ header h2{
 	.subtitle{
 		margin:25px 7% 15px !important;
 	}
+	#start {
+    		bottom: 5px;
+	}
+	br:last-child{
+		display:none;
+	}
 }
 
 @-webkit-keyframes start {
