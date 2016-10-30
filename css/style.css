@@ -468,7 +468,7 @@ header h2{
 
 @media all and (orientation:landscape) {
 	.subtitle{
-		margin:25px 7% 15px;
+		margin:25px 7% 15px !important;
 	}
 }
 
