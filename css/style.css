@@ -471,15 +471,18 @@ header h2{
 	}
 }
 
-@media all and (orientation:landscape) {
+@media screen and (orientation:landscape) {
 	#start {
-    		bottom: 5px;
+    		bottom: 10px;
 	}
 	.subtitle span{
 		display:inline;
 	}
 	#start {
-    		font-size: 1.5em !important;
+    		font-size: 2em !important;
+	}
+	.subtitle{
+		margin:30px 7% 30px;
 	}
 }
 
