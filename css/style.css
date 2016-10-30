@@ -449,11 +449,16 @@ img.thumbnail:hover {
 }
 
 .subtitle span{
-		display:block;
+	display:block;
 }
 
 header h2{
 	margin-bottom:20px;
+}
+
+footer p{
+    	font-size: 150%;
+    	margin: 20px 7% 25px;
 }
 
 @media screen and (min-width: 992px) {
@@ -471,9 +476,9 @@ header h2{
 	}
 }
 
-@media screen and (orientation:landscape) {
+@media (max-device-width : 667px) and (orientation:landscape) {
 	#start {
-    		bottom: 10px;
+    		bottom: 8px;
 	}
 	.subtitle span{
 		display:inline;
@@ -482,7 +487,7 @@ header h2{
     		font-size: 2em !important;
 	}
 	.subtitle{
-		margin:30px 7% 30px;
+		margin:28px 7% 26px;
 	}
 }
 
