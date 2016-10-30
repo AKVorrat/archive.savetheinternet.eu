@@ -458,7 +458,8 @@ header h2{
 
 footer p{
     	font-size: 150%;
-    	margin: 20px 7% 25px;
+    	margin: 20px 7% 25px 7%;
+	text-align:center;
 }
 
 @media screen and (min-width: 992px) {
@@ -484,10 +485,10 @@ footer p{
 		display:inline;
 	}
 	#start {
-    		font-size: 2em !important;
+    		font-size: 1.8em !important;
 	}
 	.subtitle{
-		margin:28px 7% 26px;
+		margin:26px 7% 26px;
 	}
 }
 
