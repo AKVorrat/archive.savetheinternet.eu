@@ -466,6 +466,12 @@ header h2{
 	}
 }
 
+@media screen and (orientation:landscape) {
+	.subtitle{
+		font-size: 130%;
+		text-align:center;margin:30px 7% 60px;
+}
+
 @-webkit-keyframes start {
 	0% {
 		-webkit-transform: translate(-50%, 0);
