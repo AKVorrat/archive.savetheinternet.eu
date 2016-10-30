@@ -446,6 +446,11 @@ img.thumbnail:hover {
 	font-size: 90%;
 	text-align:center;margin:30px 7% 60px;
 }
+
+.subtitle span{
+		display:block;
+}
+
 header h2{
 	margin-bottom:20px;
 }
@@ -473,8 +478,8 @@ header h2{
 	#start {
     		bottom: 5px;
 	}
-	.subtitle br:first-child{
-		display:none;
+	.subtitle span{
+		display:inline;
 	}
 }
 
