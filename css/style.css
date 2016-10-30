@@ -442,6 +442,10 @@ img.thumbnail:hover {
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
 }
+.subtitle{
+	font-size: 130%;
+	text-align:center;margin:30px 7% 60px;
+}
 
 @media screen and (min-width: 992px) {
 	#logo {
