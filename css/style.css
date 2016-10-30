@@ -443,7 +443,7 @@ img.thumbnail:hover {
 	animation-timing-function: ease-in-out;
 }
 .subtitle{
-	font-size: 130%;
+	font-size: 100%;
 	text-align:center;margin:30px 7% 60px;
 }
 
@@ -453,6 +453,10 @@ img.thumbnail:hover {
 	}
 	#start {
 		display: block;
+	}
+	.subtitle{
+		font-size: 130%;
+		text-align:center;margin:30px 7% 60px;
 	}
 }
 
