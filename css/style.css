@@ -478,7 +478,7 @@ header h2{
 	.subtitle span{
 		display:inline;
 	}
-	.fa-3x {
+	#start {
     		font-size: 1.5em !important;
 	}
 }
