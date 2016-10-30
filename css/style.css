@@ -472,14 +472,14 @@ header h2{
 }
 
 @media all and (orientation:landscape) {
-	.subtitle{
-		margin:25px 7% 15px !important;
-	}
 	#start {
     		bottom: 5px;
 	}
 	.subtitle span{
 		display:inline;
+	}
+	.fa-3x {
+    		font-size: 1.5em;
 	}
 }
 
