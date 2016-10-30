@@ -466,9 +466,9 @@ header h2{
 	}
 }
 
-@media screen and (orientation:landscape) {
+@media all and (orientation:landscape) {
 	.subtitle{
-		text-align:center;margin:25px 7% 15px;
+		margin:25px 7% 15px;
 	}
 }
 
