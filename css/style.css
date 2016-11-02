@@ -86,7 +86,7 @@ h1 {
 }
 
 h2 {
-	font-size: 200%;
+	font-size: 100%;
 }
 
 h3 {
@@ -106,7 +106,7 @@ h5 {
 		font-size: 500%;
 	}
 	h2 {
-		font-size: 300%;
+		font-size: 150%;
 	}
 }
 
@@ -183,8 +183,7 @@ header {
 }
 
 header > h2 {
-	padding: 0.1em;
-	text-transform: lowercase;
+	padding: 0.1em 0.6em;
 	color: rgb(60, 168, 196);
 	background-color: #fff;
 	border-radius: 2px;
@@ -443,6 +442,25 @@ img.thumbnail:hover {
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
 }
+.subtitle{
+	font-size: 90%;
+	text-align:center;
+	margin:30px 7% 60px;
+}
+
+.subtitle span{
+	display:block;
+}
+
+header h2{
+	margin-bottom:20px;
+}
+
+footer p{
+    	font-size: 130%;
+    	margin: 15px 7% 20px 7% !important;
+	text-align:center;
+}
 
 @media screen and (min-width: 992px) {
 	#logo {
@@ -450,6 +468,27 @@ img.thumbnail:hover {
 	}
 	#start {
 		display: block;
+	}
+	.subtitle{
+		font-size: 130%;
+	}
+	header h2{
+		margin-bottom:0;
+	}
+}
+
+@media (max-device-width : 667px) and (orientation:landscape) {
+	#start {
+    		bottom: 8px;
+	}
+	.subtitle span{
+		display:inline;
+	}
+	#start {
+    		font-size: 1.8em !important;
+	}
+	.subtitle{
+		margin:26px 7% 26px;
 	}
 }
 
