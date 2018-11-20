@@ -154,7 +154,7 @@ footer {
 }
 
 header {
-	min-height: calc(100vh - 220px);
+	min-height: 100vh;
 	padding: 1rem 0.5rem;
 	background-color: #3CA8C4;
 	background-image: url("../img/background.jpg");
@@ -343,17 +343,7 @@ section.row > a > img {
 	}
 }
 
-/* DISCLAIMER */
 
-#disclaimer-with-logo {
-	font-size: 90%;
-	background: #0F353E;
-	vertical-align: middle;
-	box-sizing: border-box;
-	color: #fff;
-	min-height: 220px;
-	padding-bottom: 1rem;
-}
 
 
 /* FORM */
